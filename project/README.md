@@ -26,6 +26,7 @@ sns.barplot(data=grouped_plot, x='Mental_Health', y='count', hue='Health_Issue',
 
 ### Results
 ![Visualization of top physical issues](images/top_physical_issues.png)
+
 *Top Health Issues and their percentage*
 
 ![Visualization of relation between mental status and health issues](images/health_issue_mentalstatus.png)
