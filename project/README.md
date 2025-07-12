@@ -25,9 +25,11 @@ sns.barplot(data=grouped_plot, x='Mental_Health', y='count', hue='Health_Issue',
 *Health status with related health issues*
 
 ### Results
-![Visualization of top physical issues](images/top_physical_issues.png)*Top Health Issues and their percentage*
+![Visualization of top physical issues](images/top_physical_issues.png)
+*Top Health Issues and their percentage*
 
-![Visualization of relation between mental status and health issues](images/health_issue_mentalstatus.png)*Mental health status with their associated physical issues*
+![Visualization of relation between mental status and health issues](images/health_issue_mentalstatus.png)
+*Mental health status with their associated physical issues*
 
 ### Insights
 * `Eye strain` is the most presented health issue with a 27% followed by `back pain` (26.3%), the symptoms are associated with screen exposure and prolonged sitting.
@@ -79,9 +81,11 @@ sns.heatmap(life_balance_pivot, annot=True, cmap=smooth_cmap, fmt='g')
 ```
 
 ### Results
-![Visualization of Isolation](images/isolation.png)*Heatmap of distribution of Social Isolation scores by each work arrangement*
+![Visualization of Isolation](images/isolation.png)
+*Heatmap of distribution of Social Isolation scores by each work arrangement*
 
-![Visualization of work-life balance](images/worklife_balance.png)*Heatmap of distribution of work-life balance scores by each work arrangement*
+![Visualization of work-life balance](images/worklife_balance.png)
+*Heatmap of distribution of work-life balance scores by each work arrangement*
 ### Insights
 * `Mild Isolation` and `Moderate Isolation` contain the average highest for each work arrangement, the lowest isolation values come from `onsite work` followed by `hybrid modality`, however for `remote positions` the isolation scores are higher than the others.
 * A `Moderate work-life balance` contains the highest values for each work arrangement and it's followed by a `Good work-life balance`, while both extremes (`Poor` and `Excellent`) show the lowest values, which means that the balance needs to improve to reach a higher level (`Good` and `Excellent`).
